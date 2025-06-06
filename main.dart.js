@@ -65252,8 +65252,7 @@ $1(c7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b
 t.a.a(c7)
 s=J.a3(c7)
 r=J.af(s.h(c7,"contact_id"))
-q=A.ae(s.h(c7,"membership_id"))
-if(q==null)q=""
+q=J.af(s.h(c7,"membership_id"))
 p=A.ae(s.h(c7,"contact_name"))
 if(p==null)p=""
 o=A.ae(s.h(c7,"lead_owner"))
